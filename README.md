@@ -17,7 +17,7 @@ virtualenv .venv -p python3 #if this fails you probably need to add Python3 to y
 source ./venv/bin/activate
 python3 -m pip install -r requirements.txt
 ```
-- Copy `config.yml.default` to `config.yml`
+- Copy `config.yml.default` and Paste as the name: `config.yml`
 - Edit the variants: `supported_variants` and time controls: `supported_tc` from the config.yml as necessary
 
 ### Windows:
